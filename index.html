@@ -488,7 +488,32 @@
             <use href="./img/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p></p>
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+        <form action="">
+          <div>
+            <label for="user_name">Ім'я</label>
+            <input type="text" name="name" id="user_name" />
+            <svg width="12" height="12">
+              <use href="./img/icons.svg#icon-men"></use>
+            </svg>
+          </div>
+          <div>
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" id="tel" />
+            <svg width="12" height="12">
+              <use href="./img/icons.svg#icon-phon"></use>
+            </svg>
+          </div>
+          <div>
+            <label for="mail">Пошта</label>
+            <input type="email" name="mail" id="mail" />
+            <svg width="12" height="12">
+              <use href="./img/icons.svg#icon-letter"></use>
+            </svg>
+          </div>
+        </form>
+        <button type="submit" class="submit-button">Відправити</button>
+
         <button data-modal-close></button>
       </div>
     </div>
